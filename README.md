@@ -3,6 +3,8 @@ Pytorch implementation of DAPrompt
 
 Our code would be released when this paper is accepted.
 
+If you have questions, please email gecj20 at mails.tsinghua.edu.cn
+
 ## Acknowledgement
 Thanks for the following projects:
 - [CLIP](https://github.com/openai/CLIP)
