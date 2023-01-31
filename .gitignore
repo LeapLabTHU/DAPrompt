@@ -4,6 +4,6 @@ __pycache__/
 .vscode
 *.pt
 CLIP
-output
+# output
 scripts/command.md
 dassl
