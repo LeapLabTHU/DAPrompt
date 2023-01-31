@@ -16,7 +16,7 @@ Our method is to tailor the powerful CLIP for UDA by designing trainable domain-
 
 Our code is built based on the source code of [CoOp](https://github.com/KaiyangZhou/CoOp). So you need to install some dependent environments. 
 
-```python
+```bash
 # install clip
 pip install ftfy regex tqdm
 pip install git+https://github.com/openai/CLIP.git
@@ -116,7 +116,7 @@ You can send an e-mail to gecj20 at mails.tsinghua.edu.cn if you have queations.
 ## How to Cite DAPL
 If you use this code in your research, please kindly cite the following paper
 
-```bash
+```text
 @article{ge2022domain,
   title={Domain Adaptation via Prompt Learning},
   author={Ge, Chunjiang and Huang, Rui and Xie, Mixue and Lai, Zihang and Song, Shiji and Li, Shuang and Huang, Gao},
