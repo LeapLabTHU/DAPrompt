@@ -1,0 +1,16 @@
+INPUT:
+  SIZE: (224, 224)
+  TRANSFORMS: ["random_flip", "center_crop", "normalize"]
+
+DATASET:
+  NAME: "OfficeHome"
+  SOURCE_DOMAINS: ["art"]
+  # TARGET_DOMAINS: ["clipart"]
+  # TARGET_DOMAINS: ["art"]
+  # TARGET_DOMAINS: ["product"]
+  TARGET_DOMAINS: ["real_world"]
+# you can modify the code to explore four domains
+
+MODEL:
+  BACKBONE:
+    NAME: "resnet50"

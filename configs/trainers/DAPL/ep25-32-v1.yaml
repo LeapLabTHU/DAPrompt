@@ -1,0 +1,42 @@
+DATALOADER:
+  TRAIN_X:
+    BATCH_SIZE: 32
+  TRAIN_U:
+    BATCH_SIZE: 32
+  TEST:
+    BATCH_SIZE: 128
+  NUM_WORKERS: 4
+
+INPUT:
+  SIZE: (224, 224)
+  INTERPOLATION: "bicubic"
+  PIXEL_MEAN: [0.48145466, 0.4578275, 0.40821073]
+  PIXEL_STD: [0.26862954, 0.26130258, 0.27577711]
+  TRANSFORMS: ["random_resized_crop", "random_flip", "normalize"]
+
+OPTIM:
+  NAME: "sgd"
+  LR: 3e-3
+  MAX_EPOCH: 25
+  LR_SCHEDULER: "cosine"
+  WARMUP_EPOCH: 1
+  WARMUP_TYPE: "linear"
+  WARMUP_MIN_LR: 1e-5
+
+TRAIN:
+  PRINT_FREQ: 100
+
+MODEL:
+  BACKBONE:
+    NAME: "RN101"
+
+TRAINER:
+  DAPL:
+    PREC: "amp"
+    N_DMX: 16
+    N_CTX: 16
+    CSC: True
+    T: 1.0
+    TAU: 0.5
+    U: 1.0
+

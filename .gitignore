@@ -1,0 +1,8 @@
+__pycache__/
+*.py[cod]
+*$py.class
+.vscode
+*.pt
+CLIP
+output
+scripts/command.md
