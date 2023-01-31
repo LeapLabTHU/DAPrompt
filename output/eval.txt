@@ -1,0 +1,21 @@
+Do evaluation on test set
+=> result
+* total: 55,388
+* correct: 47,096
+* accuracy: 85.03%
+* error: 14.97%
+* macro_f1: 85.34%
+=> per-class result
+* class: 0 (aeroplane)	total: 3,646	correct: 3,583	acc: 98.27%
+* class: 1 (bicycle)	total: 3,475	correct: 2,943	acc: 84.69%
+* class: 2 (bus)	total: 4,690	correct: 4,258	acc: 90.79%
+* class: 3 (car)	total: 10,401	correct: 7,853	acc: 75.50%
+* class: 4 (horse)	total: 4,691	correct: 4,568	acc: 97.38%
+* class: 5 (knife)	total: 2,075	correct: 1,897	acc: 91.42%
+* class: 6 (motorcycle)	total: 5,796	correct: 5,517	acc: 95.19%
+* class: 7 (person)	total: 4,000	correct: 3,101	acc: 77.53%
+* class: 8 (plant)	total: 4,549	correct: 3,935	acc: 86.50%
+* class: 9 (skateboard)	total: 2,281	correct: 2,028	acc: 88.91%
+* class: 10 (train)	total: 4,236	correct: 3,935	acc: 92.89%
+* class: 11 (truck)	total: 5,548	correct: 3,478	acc: 62.69%
+* average: 86.81%
