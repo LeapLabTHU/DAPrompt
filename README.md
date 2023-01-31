@@ -25,6 +25,7 @@ pip install git+https://github.com/openai/CLIP.git
 git clone https://github.com/LeapLabTHU/DAPrompt.git
 
 # install dassl
+git clone https://github.com/KaiyangZhou/Dassl.pytorch.git
 cd dassl
 pip install -r requirements.txt
 pip install .
