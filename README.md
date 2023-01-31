@@ -68,7 +68,7 @@ bash main.sh visda17 ep25-32-csc 1.0 0.5 1.0 t0
 ```
 
 ### Load a pre-trained Model
-The command is 
+We have upload a pretrained weight. You can load it and evaluate in the target domain. The command is 
 ```bash
 bash eval.sh visda17 ep25-32-csc 1.0 0.5 1.0 t0
 ```
