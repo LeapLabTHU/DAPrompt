@@ -13,7 +13,9 @@ Domain adaption via prompt learning (DAPL), extends from CLIP and CoOp, offers a
 Our method is to tailor the powerful CLIP for UDA by designing trainable domain-agnostic, domain-specific and class prompt. By learning the representation of the prompt, our method actually learns a conditional propability distribution to deal with distribution shift. Hence, our method learns different decision boundaries for each domain. Moreover, we show that this allows disentanglement of semantic and domain representation with contrastive learning. 
 
 
-## Performance of DAPrompt 
+## Performance of DAPrompt
+
+We evaluate our method on three benchmarks: VisDA-2017, mini-DomainNet and Office-Home.
 
 <div align="center">VisDA-2017</div>
 
